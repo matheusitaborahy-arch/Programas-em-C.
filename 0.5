@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+
+    printf("Digite o tamanho dos vetores: ");
+    scanf("%d", &n);
+
+    // Declaração dos 3 vetores com o tamanho n
+    int A[n], B[n], C[n];
+
+    // Leitura do vetor A
+    printf("Elementos de A:\n");
+    for(int i = 0; i < n; i++) scanf("%d", &A[i]);
+
+    // Leitura do vetor B
+    printf("Elementos de B:\n");
+    for(int i = 0; i < n; i++) scanf("%d", &B[i]);
+
+    // Leitura do vetor C
+    printf("Elementos de C:\n");
+    for(int i = 0; i < n; i++) scanf("%d", &C[i]);
+
+    printf("\nVetores A, B e C preenchidos!");
+
+    return 0;
+}
