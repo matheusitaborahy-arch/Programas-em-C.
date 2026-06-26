@@ -1,0 +1,21 @@
+/******************************************************************************
+
+6. Conversor de Moeda: Leia um valor em Reais e a cotação atual do Dólar. Exiba quanto esse valor representa
+em Dólares. Instrução: A operação correta aqui é a divisão.
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    float reais, dolar;
+    
+    printf("Digite o valor em reais para conversao");
+    scanf("%f", &reais);
+    
+    dolar = reais / 4.99;
+    
+    printf("o valor convertido e:$%.2f dolares", dolar);
+    
+    return 0;
+}
